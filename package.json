@@ -19,6 +19,8 @@
     "typescript": "^5.6.3"
   },
   "devDependencies": {
-    "astro-icon": "^1.1.1"
+    "@types/pg": "^8.11.10",
+    "astro-icon": "^1.1.1",
+    "pg": "^8.13.0"
   }
 }

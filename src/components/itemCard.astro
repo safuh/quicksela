@@ -1,0 +1,21 @@
+---
+import '../styles/formcard.css'
+interface Props {
+	imgfile: string;
+	desc: string;
+}
+
+const { imgfile,desc } = Astro.props;
+---
+
+<div id="holder" class="col-sm-4 mb-3"onclick="">
+	<div class="card">
+		<div class="card-img-top">
+			<img src={`/uploads/${imgfile}`} alt="Product Image" class="img-fluid" />
+		</div>
+		<div class="card-body">
+          	<p class="card-text">{desc}</p>
+        </div>
+	</div>
+</div>
+    
