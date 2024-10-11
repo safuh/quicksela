@@ -1,0 +1,42 @@
+---
+import { Icon } from "astro-icon/components";
+---
+<div id="footer" class="row">
+    <div class="col-4">
+        <gmp-map center="43.4142989,-124.2301242" zoom="6"style="height:200px" map-id="DEMO_MAP_ID">
+            <gmp-advanced-marker position="37.4220656,-122.0840897" title="Mountain View, CA">
+            </gmp-advanced-marker>
+            <gmp-advanced-marker position="47.648994,-122.3503845" title="Seattle, WA">
+            </gmp-advanced-marker>
+        </gmp-map>
+    </div>
+    <div class="col-4">
+        <div>Useful Links</div>
+        <div>
+            <a href="/home">Home</a>
+        </div>
+        <div>
+            <a href="/upload">Upload</a>
+        </div>
+        <div>
+            <a href="/home">About</a>
+        </div>
+    </div>
+    <div class="col-4">
+        <div>Stay Connected</div>
+        <div>
+            <Icon name="mdi:facebook"/>
+        </div>
+        <div>
+            <Icon name="mdi:instagram"/>
+        </div>
+        <div>
+            <Icon name="mdi:reddit"/>
+        </div>
+        <div>
+            <Icon name="mdi:twitter"/>
+        </div>
+
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk45G59DdWRTdAtuGmV3nrtLsX2_9pF2s&libraries=maps,marker&v=beta" defer></script>
+</div>

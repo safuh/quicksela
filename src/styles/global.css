@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-decoration: none;
+    font-size: 20px;
+	background: black;
+	color: white;
+    margin: auto;
+    background-image: linear-gradient(to bottom right, #e00cbd, #6c0ac7);
+    background-repeat: no-repeat;    
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+section{
+	border-radius: 25px;
+    padding: 2.5%;
+	background-image: linear-gradient(to bottom right, #6c0ac7, #e00cbd);
+    color:white;
+    width: 100%;
+}
+section a{
+    color:white;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width:100%
+}
+.cardholder{
+    flex: 1 1 calc(20% - 10px); /* 25% width for 5 images per row, with some margin */
+    border-radius: 10px;
+    border-color: transparent;
+    border: transparent;
+    background: transparent;
+}
+@media only screen and (max-width: 768px) {
+    .cardholder {
+        flex: 1 1 calc(33.33% - 10px); /* 3 images per row on smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cardholder{
+        flex: 1 1 calc(50% - 10px); /* 2 image per row on very small screens */
+    }
+}
+/*background-image:url('night.png') ;*/
+    /* Add a black background color to the top navigation */
+
+a{
+    color: #A52A2A;
+    text-decoration: none;
+}
+.footer{
+    text-align:center;
+    background: transparent;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-bottom:5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+}

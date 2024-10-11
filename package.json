@@ -10,8 +10,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.16.1",
     "@astrojs/check": "^0.9.4",
+    "@astrojs/netlify": "^5.5.3",
+    "@iconify-json/mdi": "^1.2.1",
+    "@mdi/js": "^7.4.47",
+    "astro": "^4.16.1",
     "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "astro-icon": "^1.1.1"
   }
 }
